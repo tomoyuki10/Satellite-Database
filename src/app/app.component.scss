@@ -1,0 +1,27 @@
+
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.mat-toolbar{
+  background: #003247;
+}
+
+.app-container{
+  grid-row: 1;
+  grid-column: 2 / 3;
+  // background: #f88;
+}
+
+.main-area{
+  display: grid; /* グリッドレイアウト */
+  grid-template-rows:818px;
+  grid-template-columns: 300px 1fr;
+}
+
+.navi-area{
+  grid-row: 1;
+  grid-column: 1 / 2;
+  background:#121212;
+}
